@@ -14,7 +14,7 @@ public class School {
         this.gpa = gpa;
     }
     public void  details(){
-        System.out.println(this.studentName+" has a "+this.gpa+" GPA");
+        logger.log(this.studentName+" has a "+this.gpa+" GPA");
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
