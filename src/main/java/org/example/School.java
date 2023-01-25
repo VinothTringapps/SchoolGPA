@@ -18,15 +18,15 @@ public class School {
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("\nEnter the Name :");
+        logger.log("\nEnter the Name :");
         String name=sc.nextLine();
-        System.out.print("\nEnter the GradeLevel :");
+        logger.log("\nEnter the GradeLevel :");
         String gradeLevel=sc.nextLine();
-        System.out.print("\nEnter the GPA :");
+        logger.log("\nEnter the GPA :");
         double gpa=sc.nextDouble();
 
         School s=new School(name,gradeLevel,gpa);
-        System.out.println("Updated GPA :");
+        logger.log("Updated GPA :");
         gpa=sc.nextDouble();
         s.getGpa(gpa);
         s.details();
