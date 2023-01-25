@@ -2,7 +2,8 @@ package org.example;
 import java.util.Scanner;
 
 public class School {
-    String studentName,gradeLevel;
+    String studentName;
+    String gradeLevel;
     double gpa;
     School(String studentName,String gradeLevel,double gpa){
         this.studentName=studentName;
